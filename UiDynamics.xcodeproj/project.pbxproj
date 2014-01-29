@@ -21,6 +21,7 @@
 		1625825918985EF6003CFAC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1625823B18985EF6003CFAC1 /* UIKit.framework */; };
 		1625826118985EF6003CFAC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1625825F18985EF6003CFAC1 /* InfoPlist.strings */; };
 		1625826318985EF6003CFAC1 /* UiDynamicsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1625826218985EF6003CFAC1 /* UiDynamicsTests.m */; };
+		162582721899A15C003CFAC1 /* BallsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 162582711899A15C003CFAC1 /* BallsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		1625825E18985EF6003CFAC1 /* UiDynamicsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UiDynamicsTests-Info.plist"; sourceTree = "<group>"; };
 		1625826018985EF6003CFAC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1625826218985EF6003CFAC1 /* UiDynamicsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UiDynamicsTests.m; sourceTree = "<group>"; };
+		162582701899A15C003CFAC1 /* BallsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallsViewController.h; sourceTree = "<group>"; };
+		162582711899A15C003CFAC1 /* BallsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				1625824918985EF6003CFAC1 /* Main.storyboard */,
 				1625824C18985EF6003CFAC1 /* ViewController.h */,
 				1625824D18985EF6003CFAC1 /* ViewController.m */,
+				162582701899A15C003CFAC1 /* BallsViewController.h */,
+				162582711899A15C003CFAC1 /* BallsViewController.m */,
 				1625824F18985EF6003CFAC1 /* Images.xcassets */,
 				1625823E18985EF6003CFAC1 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1625824E18985EF6003CFAC1 /* ViewController.m in Sources */,
+				162582721899A15C003CFAC1 /* BallsViewController.m in Sources */,
 				1625824818985EF6003CFAC1 /* AppDelegate.m in Sources */,
 				1625824418985EF6003CFAC1 /* main.m in Sources */,
 			);
@@ -460,6 +466,7 @@
 				1625826818985EF6003CFAC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1625826918985EF6003CFAC1 /* Build configuration list for PBXNativeTarget "UiDynamicsTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +475,7 @@
 				1625826B18985EF6003CFAC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
